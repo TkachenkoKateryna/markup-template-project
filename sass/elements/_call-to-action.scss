@@ -1,0 +1,37 @@
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/images/cta-bg.jpg) center/cover;
+  border-radius: 15px;
+  text-align: center;
+  font-family: $ff-primary;
+  padding: 100px;
+  margin-bottom: 80px;
+
+  h3 {
+    color: $clr-white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+  }
+
+  p {
+    color: $clr-white;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+
+  &_btn {
+    background: transparent;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    font-weight: 500;
+    border: $clr-white solid 3px;
+  }
+}

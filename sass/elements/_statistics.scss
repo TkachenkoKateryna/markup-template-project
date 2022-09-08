@@ -1,0 +1,42 @@
+.statistics {
+  margin: 0 0 80px 0;
+  .section-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_img--wrapper {
+    flex: 0 0 50%;
+  }
+
+  .statistics-info {
+    flex: 0 0 50%;
+  }
+
+  .statistic-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+
+    span {
+      margin: 0 20px 0 0;
+      font-size: 36px;
+      font-weight: 800;
+      color: $clr-primary;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      background: $clr-medium-grey;
+    }
+  }
+}
